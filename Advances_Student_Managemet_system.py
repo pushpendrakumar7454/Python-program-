@@ -59,6 +59,11 @@ class StudentManagementSytem:
 
         info={
             'Name':input("Ente your name-::"),
+            'fathername':input("Enter the father's name-::"),
+            'mothername':input('Enter the mother's name-::'),
+            'address':input('Entet the your address-::'),
+            'pin':int(input("Enter the pin-::")),
+            'gender':input("Enter the your gender"),
             'rollno':rollno,
             'id':StudentManagementSytem.__createid(),
             'course':course,
@@ -356,4 +361,5 @@ while True:
                            
 
                
+
             
