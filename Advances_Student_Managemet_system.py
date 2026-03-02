@@ -60,7 +60,7 @@ class StudentManagementSytem:
         info={
             'Name':input("Ente your name-::"),
             'fathername':input("Enter the father's name-::"),
-            'mothername':input('Enter the mother's name-::'),
+            'mothername':input("Enter the mother's name-::"),
             'address':input('Entet the your address-::'),
             'pin':int(input("Enter the pin-::")),
             'gender':input("Enter the your gender"),
@@ -308,7 +308,7 @@ while True:
              4.student loggout
              5.added student marks
              6.Student percentage
-             6.Exit
+             7.Exit
              """)
         choice=int(input("Enter your Choice-::"))
         if choice==1:
@@ -321,7 +321,7 @@ while True:
             student.student_loggout()
         elif choice==5:
             student.marks()
-        elif choice==5:
+        elif choice==6:
             student.percentage()
         else:
             print("thank you|Exit")
@@ -364,4 +364,5 @@ while True:
                
 
             
+
 
