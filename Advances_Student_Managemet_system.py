@@ -276,9 +276,9 @@ while True:
               3.view Student
               4.Update Student
               5.Delete Student
-              6.student marks
-              7.admin Logout
-              8.total_students
+              6.admin Logout
+              7.total_students
+              8.Exit
                               """)
         choice=int(input("ente your choice-::"))
         if choice==1:
@@ -290,12 +290,10 @@ while True:
         elif choice==4:
             student.UpdateStudent()
         elif choice==5:    
-            student.Deletestudent()
+            student.Deletestudent()    
         elif choice==6:
-            student.marks()    
-        elif choice==7:
             student.admin_logout()
-        elif choice==8:
+        elif choice==7:
             student.total_students()
         else:
             print("Thanku | Exit")
@@ -308,7 +306,8 @@ while True:
              2.Update Student
              3.view Subject
              4.student loggout
-             5.Student percentage
+             5.added student marks
+             6.Student percentage
              6.Exit
              """)
         choice=int(input("Enter your Choice-::"))
@@ -320,6 +319,8 @@ while True:
             student.view_subject()
         elif choice==4:
             student.student_loggout()
+        elif choice==5:
+            student.marks()
         elif choice==5:
             student.percentage()
         else:
@@ -363,3 +364,4 @@ while True:
                
 
             
+
